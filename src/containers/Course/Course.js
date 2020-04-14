@@ -7,13 +7,6 @@ class Course extends Component {
     state = {
         loadedPostTitle: null
     }
-    componentDidMount() {
-        //this.setState({ loadedPostTitle: this.props.location.pathname });
-        // console.log(this.props);
-
-        //this.setState({ loadedPostTitle: this.props.match.params.title });
-        // console.log(this.loadedPostTitle);
-    }
 
     render() {
         let a = null;
