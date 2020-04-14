@@ -18,7 +18,7 @@ class Course extends Component {
         } else {
             a = <div>
                 <h1>{this.props.title}</h1>
-                <p>You selected the Course with ID: {this.props.id}</p>
+                {/* <p>You selected the Course with ID: {this.props.id}</p> */}
             </div>;
         }
 

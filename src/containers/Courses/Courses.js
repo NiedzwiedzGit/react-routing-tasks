@@ -25,7 +25,7 @@ class Courses extends Component {
                 <Course
                     className="Course"
                     key={course.id}
-                    id={course.id}
+                    // id={course.id}
                     title={course.title}
                     //match={this.props.match}
                     clicked={() => this.postSelectedHandler(course.id, course.title)}
